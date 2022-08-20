@@ -1,0 +1,16 @@
+apikey: ""
+radiusInMeters: 500
+keyword: ""
+language: ""
+minPrice: 0
+maxPrice: 4
+name: ""
+openNow: false
+rankBy: "prominence"
+placeType: "restaurant"
+latitude: 18.9542724
+longitude: 72.8128090
+maxRequests: 1
+outputFile:
+  name: "MarineDrive_Restaurants_500meters"
+  type: "json"
