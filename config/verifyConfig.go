@@ -11,9 +11,6 @@ func GetVerifiedConfig() config {
 	if parsedConfig.APIKey == "" {
 		log.Fatal("[ERROR] api key is not set")
 	}
-	if parsedConfig.RadiusInMeters == 0 {
-		log.Fatal("[ERROR] radius in meters is not set")
-	}
 	if parsedConfig.MinPrice < 0 || parsedConfig.MinPrice > 4 {
 		log.Fatal("[ERROR] invalid min price")
 	}

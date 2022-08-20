@@ -1,7 +1,6 @@
 apikey: ""
 radiusInMeters: 500
 keyword: ""
-language: ""
 minPrice: 0
 maxPrice: 4
 name: ""
